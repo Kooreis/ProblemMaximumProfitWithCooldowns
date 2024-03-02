@@ -1,9 +1,3 @@
-using System;
-
-class Program
-{
-    static void Main(string[] args)
+static int MaxProfit(int[] prices)
     {
-        int[] prices = { 1, 2, 3, 0, 2 };
-        Console.WriteLine(MaxProfit(prices));
-    }
+        if (prices.Length <= 1) return 0;
